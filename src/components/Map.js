@@ -10,7 +10,7 @@ const Map = ({ vessels }) => {
       style={{ height: '100vh' }}
     >
       <TileLayer
-        url="https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZmlrei0xODQ1IiwiYSI6ImNtMGM2eXdoaTAwMncyaXM3cWNqd2NqM20ifQ.qqDdZe5sneVax6hozsqymQ"
+        url="https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=Your_Access_Token_MapBox_Here"
         attribution='&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> contributors'
       />
       {vessels.map(vessel => (
